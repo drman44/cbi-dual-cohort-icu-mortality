@@ -1,0 +1,13 @@
+# CBI pipeline — Python 3.11+ dependencies
+# Pinned to versions used in the published analysis for full reproducibility
+pandas==2.1.3
+numpy==1.26.2
+scipy==1.12.0
+scikit-learn==1.4.0
+statsmodels==0.14.1
+lifelines==0.28.0
+matplotlib==3.8.2
+seaborn==0.13.0
+pyreadstat==1.2.6            # NHANES XPT / SAS transport format reader
+google-cloud-bigquery==3.17.2 # optional, for direct BigQuery extraction
+pandas-gbq==0.20.0            # optional, for BigQuery ↔ pandas bridge

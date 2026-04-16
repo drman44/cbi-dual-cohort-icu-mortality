@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated article."
+title: "CBI — Cardiometabolic Burden Index Analysis Pipeline for MIMIC-IV and eICU-CRD"
+version: "1.0.0"
+date-released: 2026-04-16
+authors:
+  - family-names: "İşleyen"
+    given-names: "Hasan Burak"
+    orcid: "https://orcid.org/0000-0002-4400-9715"
+    affiliation: "Department of Cardiology, Nişantaşı University Faculty of Medicine, Istanbul, Turkey"
+    email: "hasanburak.isleyen@nisantasi.edu.tr"
+  - family-names: "Tuğrul Yavuz"
+    given-names: "Sevil"
+    affiliation: "Department of Cardiology, Başakşehir Çam and Sakura City Hospital, Istanbul, Turkey"
+  - family-names: "Bulut"
+    given-names: "Sercan"
+    affiliation: "Department of Cardiology, Bağcılar Training and Research Hospital, Istanbul, Turkey"
+  - family-names: "Kızkapan"
+    given-names: "Fatih"
+    affiliation: "Department of Cardiology, Bağcılar Training and Research Hospital, Istanbul, Turkey"
+  - family-names: "Alioğlu"
+    given-names: "Cevahir"
+    affiliation: "Department of Cardiology, Bezmialem Vakıf University Faculty of Medicine Hospital, Istanbul, Turkey"
+  - family-names: "Sözen"
+    given-names: "Ali Arda"
+    affiliation: "Department of Cardiology, Bezmialem Vakıf University Faculty of Medicine Hospital, Istanbul, Turkey"
+  - family-names: "Khanmohammadi"
+    given-names: "Mahsa"
+    affiliation: "Department of Cardiology, Bezmialem Vakıf University Faculty of Medicine Hospital, Istanbul, Turkey"
+license: MIT
+repository-code: "https://github.com/drman44/cbi-dual-cohort"
+abstract: "Analysis pipeline accompanying the manuscript 'A NHANES-Anchored Cardiometabolic Burden Index and 28-Day Mortality in Critically Ill Cardiovascular Patients: A Dual ICU Cohort Study in MIMIC-IV and eICU-CRD.' Includes BigQuery extraction scripts, Python preprocessing and analysis modules for Cox regression, discrimination, calibration, decision curves, restricted cubic splines, subgroup forest, sensitivity analyses, and a pooled cohort-stratified interaction model. Patient-level MIMIC-IV and eICU-CRD data are not redistributed; reproduction requires independent PhysioNet credentialing."
+keywords:
+  - cardiometabolic burden index
+  - MIMIC-IV
+  - eICU-CRD
+  - NHANES
+  - intensive care
+  - mortality prediction
+  - neutrophil-to-lymphocyte ratio
+  - Cox regression
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "İşleyen"
+      given-names: "Hasan Burak"
+      orcid: "https://orcid.org/0000-0002-4400-9715"
+    - family-names: "Tuğrul Yavuz"
+      given-names: "Sevil"
+    - family-names: "Bulut"
+      given-names: "Sercan"
+    - family-names: "Kızkapan"
+      given-names: "Fatih"
+    - family-names: "Alioğlu"
+      given-names: "Cevahir"
+    - family-names: "Sözen"
+      given-names: "Ali Arda"
+    - family-names: "Khanmohammadi"
+      given-names: "Mahsa"
+  title: "A NHANES-Anchored Cardiometabolic Burden Index and 28-Day Mortality in Critically Ill Cardiovascular Patients: A Dual ICU Cohort Study in MIMIC-IV and eICU-CRD"
+  year: 2026
+  journal: "Cardiovascular Diabetology"
+  doi: "TBA"

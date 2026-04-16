@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 drman44
+Copyright (c) 2026 Hasan Burak İşleyen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+This license covers code only. Patient-level data from MIMIC-IV v3.1 and
+eICU-CRD v2.0 remain subject to the PhysioNet Credentialed Health Data Use
+Agreement and are not covered by this license.

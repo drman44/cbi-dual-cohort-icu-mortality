@@ -1,0 +1,63 @@
+# ============================================================
+# CRITICAL: Exclude all raw credentialed data
+# MIMIC-IV and eICU-CRD are PhysioNet credentialed datasets;
+# patient-level data must NEVER be pushed to a public repository.
+# ============================================================
+*.csv.gz
+data/
+data/**
+raw_data/
+credentialed/
+mimic*.csv
+eicu*.csv
+*_with_cbi*.csv
+*_master*.csv
+*_analytic_dataset.csv
+*.parquet
+*.feather
+*.sav
+*.dta
+
+# NHANES downloads (large, public — exclude to keep repo light)
+nhanes_raw/
+*.XPT
+*.xpt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
+
+# BigQuery credentials
+*.json.key
+service_account*.json
+.gcp/
+gcloud_credentials/
+
+# Analysis intermediates
+tmp/
+scratch/
+*.log
